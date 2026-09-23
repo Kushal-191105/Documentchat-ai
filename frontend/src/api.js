@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://documentchat-ai.onrender.com/api/',
+  baseURL: 'http://localhost:8000/api/',
 });
 
 // Add a request interceptor to attach the JWT token
